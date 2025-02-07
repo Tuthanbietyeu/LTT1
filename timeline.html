@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thời Khoá Biểu</title>
+    <link rel="stylesheet" href="./timeline/style.css">
+    <style>
+        
+        .timetable {
+            display: grid;
+            grid-template-columns: 100px repeat(6, 1fr);
+            gap: 10px;
+            padding: 20px;
+            border: 2px solid #000000;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .timetable div {
+            border: 1px solid #000000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .timetable .header {
+            font-weight: bold;
+            background-color: #7376ff;
+        }
+
+        .timetable .day {
+            background-color: #f0ff67;
+            font-weight: bold;
+        }
+
+        .timetable .lesson {
+            background-color: #95fa76;
+        }
+
+        .timetable .sang {
+            background-color: #ffcccb;
+            font-weight: bold;
+        }
+
+        .timetable .chieu {
+            background-color: #ffcccb;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            color: #000000;
+            margin-top: 20px;
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 0 0 10px #00ffff, 0 0 20px #00eeff, 0 0 30px #19fff3, 0 0 40px #00e1ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <a href="web.html" class="btn btn-bir">Trang chủ</a>
+        <a href="timeline.html" class="btn btn-timeline">Thời khoá biểu</a>
+        <a href="gallery.html" class="btn btn-gallery">Kho ảnh</a>
+    </div>
+
+    <h1>Thời Khoá Biểu</h1>
+
+    
+    <div class="timetable">
+        
+        <div class="header sang">Sáng</div>
+        <div class="header">Thứ 2</div>
+        <div class="header">Thứ 3</div>
+        <div class="header">Thứ 4</div>
+        <div class="header">Thứ 5</div>
+        <div class="header">Thứ 6</div>
+        <div class="header">Thứ 7</div>
+
+        
+        <div class="day">Tiết 1</div>
+        <div class="lesson">Chào cờ</div>
+        <div class="lesson">Thể dục</div>
+        <div class="lesson">Văn</div>
+        <div class="lesson">GDQP</div>
+        <div class="lesson">Hoá</div>
+        <div class="lesson">Sinh</div>
+
+        <div class="day">Tiết 2</div>
+        <div class="lesson">TN HN</div>
+        <div class="lesson">Thể dục</div>
+        <div class="lesson">Lịch sử</div>
+        <div class="lesson">Tiếng Anh</div>
+        <div class="lesson">Tin học</div>
+        <div class="lesson">Toán</div>
+
+        <div class="day">Tiết 3</div>
+        <div class="lesson">Toán</div>
+        <div class="lesson">Văn</div>
+        <div class="lesson">Hoá</div>
+        <div class="lesson">Toán</div>
+        <div class="lesson">Tin học</div>
+        <div class="lesson">Văn</div>
+
+        <div class="day">Tiết 4</div>
+        <div class="lesson">Tiếng Anh</div>
+        <div class="lesson">Văn</div>
+        <div class="lesson"></div>
+        <div class="lesson">Lý</div>
+        <div class="lesson">Tiếng Anh</div>
+        <div class="lesson">Lịch sử</div>
+
+        <div class="day">Tiết 5</div>
+        <div class="lesson">Toán</div>
+        <div class="lesson">Lý</div>
+        <div class="lesson"></div>
+        <div class="lesson">Lý</div>
+        <div class="lesson">GDĐP</div>
+        <div class="lesson">Sinh học</div>
+    </div>
+
+    
+    <div class="timetable" style="margin-top: 30px;">
+        
+        <div class="header chieu">Chiều</div>
+        <div class="header">Thứ 2</div>
+        <div class="header">Thứ 3</div>
+        <div class="header">Thứ 4</div>
+        <div class="header">Thứ 5</div>
+        <div class="header">Thứ 6</div>
+        <div class="header">Thứ 7</div>
+
+        <div class="day">Tiết 1</div>
+        <div class="lesson"></div>
+        <div class="lesson"></div>
+        <div class="lesson"></div>
+        <div class="lesson"></div>
+        <div class="lesson"></div>
+        <div class="lesson"></div>
+
+        <div class="day">Tiết 2</div>
+        <div class="lesson"></div>
+        <div class="lesson">Tiếng Anh</div>
+        <div class="lesson"></div>
+        <div class="lesson">Toán</div>
+        <div class="lesson">Hoá</div>
+        <div class="lesson"></div>
+
+        <div class="day">Tiết 3</div>
+        <div class="lesson"></div>
+        <div class="lesson">Tiếng Anh</div>
+        <div class="lesson"></div>
+        <div class="lesson">Toán</div>
+        <div class="lesson">Hoá</div>
+        <div class="lesson"></div>
+
+        <div class="day">Tiết 4</div>
+        <div class="lesson"></div>
+        <div class="lesson">Tiếng Anh</div>
+        <div class="lesson"></div>
+        <div class="lesson">Toán</div>
+        <div class="lesson">Lý</div>
+        <div class="lesson"></div>
+
+        <div class="day">Tiết 5</div>
+        <div class="lesson"></div>
+        <div class="lesson"></div>
+        <div class="lesson"></div>
+        <div class="lesson"></div>
+        <div class="lesson">Lý</div>
+        <div class="lesson"></div>
+    </div>
+
+</body>
+</html>
