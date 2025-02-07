@@ -104,3 +104,32 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+  
+.btn-link {
+  background-image: linear-gradient(
+      to right,
+      #b4047a 0%,
+      #eb21bf 51%,
+      #b4047a 100%
+  );
+}
+.btn-link {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 20px #eee;
+  border: 2px solid #000000 !important;
+  border-radius: 10px !important;
+  display: block;
+}
+
+.btn-link:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
