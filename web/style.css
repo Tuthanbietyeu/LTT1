@@ -6,6 +6,7 @@
   display: flex;
   column-gap: 3rem;
   padding: 2rem;
+  z-index: 10;
 }
 
 .btn-bir:hover {
